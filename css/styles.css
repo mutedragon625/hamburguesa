@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #800080, #4b0082);
+    color: white;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #222;
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+#menu, #carrito {
+    width: 45%;
+}
+
+button {
+    background: linear-gradient(90deg, #ff8c00, #ff4500);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ff4500, #ff8c00);
+    transform: scale(1.1);
+}
+
+#ayuda {
+    background: #292929;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+#ayuda h2 {
+    color: #ffcc00;
+    font-size: 1.8rem;
+}
+
+#ayuda p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+#productos div {
+    background: #333;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s;
+}
+
+#productos div:hover {
+    transform: scale(1.05);
+}
